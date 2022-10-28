@@ -5,6 +5,7 @@ begin-app
 
 @http
 get /shot
+
 @tables
 data
   scopeID *String
