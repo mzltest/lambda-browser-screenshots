@@ -4,7 +4,6 @@
   "description": "Take screenshots of web pages.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ben Shaw",
   "license": "Apache License 2.0",
