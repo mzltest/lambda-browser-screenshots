@@ -1,7 +1,7 @@
 const chromium = require('chrome-aws-lambda');
 const DEFAULT_WIDTH = 1280;
 const DEFAULT_HEIGHT = 800;
-
+let arc = require('@architect/functions')
 
 exports.handler = async (event, context, callback) => {
     if (typeof event.queryStringParameters.url === "undefined") {
